@@ -4,7 +4,7 @@ const INFO = {
 		name: "Mohamed Yusuf Mohamed Javid",
 		nickname: "Mo",
 		email: "mohdgazyanii235@gmail.com",
-		logo: "logo.png",
+		logo: "https://mohdgazyanii235.github.io/my-resume/logo.png",
 	},
 
 	socials: {
