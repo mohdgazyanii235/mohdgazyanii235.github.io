@@ -18,7 +18,7 @@ const Footer = () => {
 				<div className="footer-links">
 					<ul className="footer-nav-link-list">
 						<li className="footer-nav-link-item">
-							<Link to="/">Home</Link>
+							<Link to="/my-resume">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/about">About</Link>
