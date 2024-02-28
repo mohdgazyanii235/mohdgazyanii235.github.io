@@ -34,7 +34,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© {year} MuddSec. All Rights Reserved.
+						© {year} Mohdgazyanii235. All Rights Reserved.
 					</div>
 				</div>
 			</div>
