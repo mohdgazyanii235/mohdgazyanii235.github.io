@@ -6,10 +6,10 @@ import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
 
-const AllProjects = () => {
+const PinnedProjects = () => {
 	return (
 		<div className="all-projects-container">
-			{INFO.projects.map((project, index) => (
+			{INFO.projects.filter(project => project.pin).map((project, index) => (
 				<div className="all-projects-project" key={index}>
 					<Project
 						logos={project.logos}
@@ -24,4 +24,4 @@ const AllProjects = () => {
 	);
 };
 
-export default AllProjects;
+export default PinnedProjects;

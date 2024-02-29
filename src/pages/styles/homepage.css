@@ -27,6 +27,11 @@
 	width: 85% !important;
 }
 
+.homepage-section-title {
+	width: 85% !important;
+	margin-top: 100px;
+}
+
 .homepage-subtitle {
 	width: 85% !important;
 }
@@ -79,7 +84,7 @@
 
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 .homepage-articles {
@@ -115,6 +120,7 @@
 		margin-top: 20px;
 		order: 2;
 	}
+
 
 	.homepage-subtitle {
 		width: 100% !important;

@@ -4,17 +4,16 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
+	faYoutubeSquare,
+	faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+import PinnedProjects from "../components/projects/pinnedProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -118,7 +117,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faXTwitter}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -133,22 +132,22 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faInstagram}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.youtube}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faYoutubeSquare}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -164,8 +163,12 @@ const Homepage = () => {
 							</a>
 						</div>
 
+						<div className="section-title homepage-section-title">
+							{INFO.homepage.projectsTitle}
+						</div>
+
 						<div className="homepage-projects">
-							<AllProjects />
+							<PinnedProjects />
 						</div>
 
 						<div className="page-footer">

@@ -8,15 +8,17 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		twitter: "https://twitter.com/MudSec1337",
 		github: "https://github.com/mohdgazyanii235",
-		linkedin: "https://linkedin.com/in/moyusuf01"
+		linkedin: "https://linkedin.com/in/moyusuf01",
+		youtube: "https://www.youtube.com/channel/UCTzDq7ChSq47qMdS8Qm4fAw",
 	},
 
 	homepage: {
-		title: "Hello world! Welcome to my personal portfolio website!",
+		title: "Hello world! Welcome to this side of the internet!",
 		description:
-			"Lorem ipsum shite",
+			"My name is Mohamed Yusuf, but you probably figured that out already. I wear many hats - I'm a computer scientist, teaching assistant, barista, web developer, penetration tester, CEO and a coffee addict (not necessarily in that order). Through this website, I aim to showcase my prowess in software engineering and penetration testing, featuring both my personal and professional escapades. Worry not, You're not sifting through a half-century-old portfolio of someone who once reveled in the limelight! I plan to keep this website as fresh as my daily espresso shots. So dive in and enjoy the blend of technology and caffein induced creativity!",
+		projectsTitle: "Some of my favourite projects..."
 	},
 
 	about: {
@@ -32,48 +34,43 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "My Peronal Portfolio Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"This is where you will find the source code of this website. I am absolutely happy for you clone and build your own using this as a template if you so please!",
+			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg"],
+			linkText: "View Project Source Code",
+			link: "https://github.com/mohdgazyanii235/my-resume",
+			pin: true,
 		},
 
 		{
-			title: "Project 2",
+			title: "Live Video To Narration",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"This was probably the most fun project to build - Imagine having Morgan Freeman narrate what he sees through your camera!",
+			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg"],
+			linkText: "View Project Source Code",
+			link: "https://github.com/mohdgazyanii235/LiveVideo2Narration",
+			pin: true,
 		},
 
 		{
-			title: "Project 3",
+			title: "Sudoku Solver",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"I built a sudoku solver in python - Simply, enter your sudoku puzzle in a csv file and the python code will solve it almost instantly. No, it's not a brute force solution. Time complexity: O(9^n)",
+			logos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png"],
+			linkText: "View Project Source Code",
+			link: "https://github.com/mohdgazyanii235/sudoku-solver",
+			pin: false,
 		},
 
 		{
-			title: "Project 4",
+			title: "Advanced Allocation Algorithm",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"The Advanced Allocation is our latest ML project, a brainchild cooked up with my business partner. Unfortunately, we've got to keep the lid on the details for now... It's like the secret ingredient in your favorite dish - makes you curious, but trust me, it's worth the wait!",
+			logos: ["https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
+			linkText: "Visit The Bounty Register LinkedIn Page For Updates",
+			link: "https://www.linkedin.com/company/thebountyregister/",
+			pin: true,
 		},
 	],
 };
