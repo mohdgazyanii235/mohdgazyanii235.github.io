@@ -66,8 +66,8 @@ const INFO = {
 		{
 			title: "Advanced Allocation Algorithm",
 			description:
-				"The Advanced Allocation is our latest ML project, a brainchild cooked up with my business partner. Unfortunately, we've got to keep the lid on the details for now... It's like the secret ingredient in your favorite dish - makes you curious, but trust me, it's worth the wait!",
-			logos: ["https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
+				"The Advanced Allocation Algorithm is our latest ML project, a brainchild cooked up with me and my business partner. Unfortunately, we've got to keep the lid on the details for now... It's like the secret ingredient in your favorite dish - makes you curious, but trust me, it's worth the wait!",
+			logos: ["https://mohdgazyanii235.github.io/my-resume/black-with-white-background.png", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
 			linkText: "Visit The Bounty Register LinkedIn Page For Updates",
 			link: "https://www.linkedin.com/company/thebountyregister/",
 			pin: true,
