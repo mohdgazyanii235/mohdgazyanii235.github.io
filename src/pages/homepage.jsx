@@ -16,7 +16,6 @@ import NavBar from "../components/common/navBar";
 import PinnedProjects from "../components/projects/pinnedProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 
@@ -53,7 +52,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
 
 	const logoStyle = {
 		display: "flex",
@@ -67,14 +65,14 @@ const Homepage = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
+			{/* <Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
-			</Helmet>
+			</Helmet> */}
 
 			<div className="page-content">
 				<NavBar active="home" />
@@ -101,7 +99,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="https://mohdgazyanii235.github.io/my-resume/homepage.jpg"
+											src={INFO.homepage.image}
 											alt="about"
 											className="homepage-image"
 										/>

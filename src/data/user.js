@@ -18,13 +18,40 @@ const INFO = {
 		title: "Hello world! Welcome to this side of the internet!",
 		description:
 			"My name is Mohamed Yusuf, but you probably figured that out already. I wear many hats - I'm a computer scientist, teaching assistant, barista, web developer, penetration tester, CEO and a coffee addict (not necessarily in that order). Through this website, I aim to showcase my prowess in software engineering and penetration testing, featuring both my personal and professional escapades. Worry not, You're not sifting through a half-century-old portfolio of someone who once reveled in the limelight! I plan to keep this website as fresh as my daily espresso shots. So dive in and enjoy the blend of technology and caffein induced creativity!",
-		projectsTitle: "Some of my favourite projects..."
+		projectsTitle: "Some of my favourite projects...",
+		image: "https://mohdgazyanii235.github.io/my-resume/homepage.jpg",
 	},
 
 	about: {
 		title: "About me",
-		description:
-			"Lorem ipsum shite",
+		description: "Lorem ipsum shite",
+		photos: [
+			{
+				title: "What I Look Like after 14 hours of Hacking!🎮👾",
+				description: "Fresh off a 14-hour HackTheBox spree with my buddy - my busted ACL (after a skiing accident) made sure I had a great excuse to keep on hacking without taking a break!",
+				link: process.env.PUBLIC_URL + "/photo_gallery/broken_knee_and_14_hours_hack_the_box.jpeg",
+			},
+			{
+				title: "Yes, I was a house captain many years ago.",
+				description: "Lorem Ipsum Shite.",
+				link: process.env.PUBLIC_URL + "/photo_gallery/house_captain.jpeg",
+			},
+			{
+				title: "My love for exhibitions!",
+				description: "Lorem Ipsum Shite.",
+				link: process.env.PUBLIC_URL + "/photo_gallery/love_for_exhibitions.jpeg",
+			},
+			{
+				title: "Quarantine times!",
+				description: "Lorem Ipsum Shite.",
+				link: process.env.PUBLIC_URL + "/photo_gallery/quarantine.jpeg",
+			},
+			{
+				title: "Sick golf photo!",
+				description: "Lorem Ipsum Shite.",
+				link: process.env.PUBLIC_URL + "/photo_gallery/sick_golf_photo.jpeg",
+			},
+		]
 	},
 
 	articles: {

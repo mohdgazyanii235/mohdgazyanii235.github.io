@@ -73,6 +73,11 @@
 	display: none;
 }
 
+.about-photos {
+	flex-basis: 300px;
+	padding-top: 10px;
+}
+
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;
@@ -102,6 +107,10 @@
 
 	.about-socials {
 		display: none;
+	}
+
+	.about-photos {
+		flex-basis: auto;
 	}
 
 	.about-socials-mobile {
