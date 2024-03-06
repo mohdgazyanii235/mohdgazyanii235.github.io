@@ -16,8 +16,6 @@ const Contact = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "contact");
-
 	return (
 		<React.Fragment>
 			<Helmet>
