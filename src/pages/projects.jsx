@@ -22,10 +22,8 @@ const Projects = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{`Projects | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
-					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
 
@@ -39,11 +37,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							My side projects.
+							{INFO.projectPage.title}
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							Lorem ipsum shite.
+							{INFO.projectPage.description}
 						</div>
 
 						<div className="projects-list">
