@@ -18,6 +18,8 @@ const INFO = {
 		linkedin: "https://www.linkedin.com/in/moyusuf01/",
 		youtube: "https://www.youtube.com/channel/UCTzDq7ChSq47qMdS8Qm4fAw",
 		instagram: "https://www.instagram.com/mo.yusuf01/",
+		email: "mohdgazyanii235@gmail.com",
+		phoneNumber: "+44 (0)7 955 170 009",
 	},
 
 	homepage: {
@@ -81,8 +83,8 @@ const INFO = {
 	},
 
 	articles: {
-		title: "My Articles",
-		description: "Lorem ipsum shite.",
+		title: "This page is under construction 🚧🚧⛏️⛏️🛠️🛠️",
+		description: "I aim to upload on this page, an array of my articles / meaningful documents  that I have written over the years... these could be bug bounty reports from 6 years ago to a detailed comparitive analysis between vim and emacs (I chose vim because psycopathy doesn't run in MY family)! ... See you soon!",
 	},
 
 	projects: [
@@ -90,6 +92,7 @@ const INFO = {
 			title: "CV Maker",
 			description: "CV Maker is your go-to solution for crafting the perfect CV for every job application. This tool eliminates the hassle of constantly modifying your resume to match each job's requirements.",
 			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://logowik.com/content/uploads/images/latex6119.logowik.com.webp", "https://www.iconpacks.net/icons/2/free-pdf-icon-3385-thumb.png"],
+			linkText: "View Project Source Code",
 			link: "https://github.com/mohdgazyanii235/cv-maker",
 			pin: true,
 		},

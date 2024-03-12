@@ -56,16 +56,16 @@
 .not-found-link {
 	font-size: 1.5rem;
 	text-decoration: none;
-	color: #fff;
-	background-color: var(--link-color);
+	color: #171717;
+	background-color: var(--secondary-color);
 	padding: 1rem 2rem;
 	border-radius: 50px;
 	transition: all 0.3s ease-in-out;
 }
 
 .not-found-link:hover {
-	background-color: #fff;
-	color: var(--link-color);
+	background-color: #151515;
+	color: var(--tertiary-color);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 

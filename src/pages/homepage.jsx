@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
-
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,6 +6,7 @@ import {
 	faInstagram,
 	faYoutubeSquare,
 	faXTwitter,
+	faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -138,6 +137,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faYoutubeSquare}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedinIn}
 									className="homepage-social-icon"
 								/>
 							</a>

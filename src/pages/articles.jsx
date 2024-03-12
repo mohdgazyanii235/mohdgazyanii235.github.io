@@ -4,13 +4,13 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import AllProjects from "../components/projects/allProjects";
+
+import "./styles/articles.css"
 
 import INFO from "../data/user";
 
-import "./styles/projects.css";
 
-const Projects = () => {
+const Articles = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -18,33 +18,36 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Articles | ${INFO.main.title}`}</title>
 				<meta
 					name="keywords"
 				/>
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="projects" />
+				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
-						<div className="projects-logo">
+
+					<div className="articles-logo-container">
+						<div className="articles-logo">
 							<Logo width={70.8} />
 						</div>
 					</div>
-					<div className="projects-container">
-						<div className="title projects-title">
-							{INFO.projectPage.title}
-						</div>
 
-						<div className="subtitle projects-subtitle">
-							{INFO.projectPage.description}
-						</div>
+					<div className="articles-container">
+						<div className="articles-main">
+							<div className="articles-right-side">
+								<div className="title articles-title">
+									{INFO.articles.title}
+								</div>
 
-						<div className="projects-list">
-							<AllProjects />
+								<div className="subtitle articles-subtitle">
+									{INFO.articles.description}
+								</div>
+							</div>
 						</div>
 					</div>
+
 					<div className="page-footer">
 						<Footer />
 					</div>
@@ -54,4 +57,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default Articles;

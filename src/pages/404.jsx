@@ -33,7 +33,7 @@ const Notfound = () => {
 							<div className="not-found-message">
 								{INFO.main.nickname} isn't aware of the page you are looking for..
 								<br />
-								Are you sure <strong>"{window.location.href}"</strong> this is what you want?
+								Are you sure <strong>"{window.location.pathname}"</strong> is what you want?
 							</div>
 							<a href="/" className="not-found-link">
 								Go back to the home page
