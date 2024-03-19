@@ -1,0 +1,17 @@
+.all-articles-container {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+.all-articles-project {
+	width: 350px;
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
