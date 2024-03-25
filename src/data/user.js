@@ -82,10 +82,29 @@ const INFO = {
 		]
 	},
 
-	articles: {
-		title: "This page is under construction 🚧🚧⛏️⛏️🛠️🛠️",
+	article: {
+		title: "My Articles.",
 		description: "I aim to upload on this page, an array of my articles / meaningful documents  that I have written over the years... these could be bug bounty reports from 6 years ago to a detailed comparitive analysis between vim and emacs (I chose vim because psycopathy doesn't run in MY family)! ... See you soon!",
 	},
+
+	articles: [
+		{
+			title: "Security Analysis of WideVine as a Digital Rights Management Solution",
+			description: "In my first year studying Computer Science with a focus on Information Security at Royal Holloway University of London, I was selected for an undergraduate research project with an ambitious goal. The project aimed to conduct an in-depth security analysis of WideVine, a leading digital rights management system. Our objective was to assess the resilience of DRM-protected video content from prominent platforms like Netflix and Amazon Prime, exploring potential vulnerabilities. This initiative not only sharpened my technical skills but also provided a practical perspective on the challenges and complexities of digital content protection.",
+			location: process.env.PUBLIC_URL + "/articles/widevine.pdf",
+			link: "article image",
+			dateWritten: "August 2021",
+			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"]
+		},
+		{
+			title: "My UCAS Personal Statement",
+			description: "After dedicating 2-3 months to meticulously crafting my UCAS personal statement amidst the whirlwind of university applications four years ago, the thought of limiting its audience to just a select few feels like a disservice. This labor of love, a testament to my determination and passion during a pivotal chapter of my academic journey, deserves a broader stage.",
+			location: process.env.PUBLIC_URL + "/articles/UCAS_personal_statement.pdf",
+			link: "article image",
+			dateWritten: "August 2021",
+			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"]
+		},
+	],
 
 	projects: [
 		{

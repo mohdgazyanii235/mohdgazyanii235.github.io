@@ -1,46 +1,46 @@
 @import "../../../data/styles.css";
 
-.project {
+.article {
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
 }
 
-.project a {
+.article a {
 	text-decoration: none;
 }
 
-.project:hover {
+.article:hover {
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
-.project:hover .project-link {
+.article:hover .article-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
 }
 
-.project-container {
+.article-container {
 	padding: 30px;
 }
 
-.project-logo {
+.article-logo {
 	width: 30px;
 }
 
-.project-logos {
+.article-logos {
 	display: flex;
 	justify-content: space-between;
 	padding-right: 10%;
 }
 
-.project-logo img {
+.article-logo img {
 	width: 100%;
 	border-radius: 10px;
 }
 
-.project-title {
+.article-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
 	font-size: 16px;
@@ -49,11 +49,11 @@
 	font-weight: 700;
 }
 
-.project-description {
+.article-description {
 	color: var(--secondary-color);
 }
 
-.project-link {
+.article-link {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
@@ -61,18 +61,13 @@
 	padding-top: 20px;
 }
 
-.project-link-icon {
+.article-link-icon {
 	padding-left: 5px;
 	font-size: 13px;
 }
 
-.project-link-text {
+.article-link-text {
 	padding-left: 20px;
 	font-weight: 700;
 }
 
-/* @media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
-} */

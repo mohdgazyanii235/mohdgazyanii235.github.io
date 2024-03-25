@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
+import AllArticles from "../components/articles/allArticles";
 
 import "./styles/articles.css"
 
@@ -27,27 +28,24 @@ const Articles = () => {
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-
 					<div className="articles-logo-container">
 						<div className="articles-logo">
 							<Logo width={70.8} />
 						</div>
 					</div>
-
 					<div className="articles-container">
-						<div className="articles-main">
-							<div className="articles-right-side">
-								<div className="title articles-title">
-									{INFO.articles.title}
-								</div>
+						<div className="title articles-title">
+							{INFO.article.title}
+						</div>
 
-								<div className="subtitle articles-subtitle">
-									{INFO.articles.description}
-								</div>
-							</div>
+						<div className="subtitle articles-subtitle">
+							{INFO.article.description}
+						</div>
+
+						<div className="articles-list">
+							<AllArticles />
 						</div>
 					</div>
-
 					<div className="page-footer">
 						<Footer />
 					</div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Project from "./project";
+import Article from "./article";
 
 import INFO from "../../data/user";
 
@@ -9,14 +9,14 @@ import "./styles/allArticles.css";
 const AllArticles = () => {
 	return (
 		<div className="all-articles-container">
-			{INFO.projects.map((project, index) => (
-				<div className="all-articles-project" key={index}>
-					<Project
-						logos={project.logos}
-						title={project.title}
-						description={project.description}
-						linkText={project.linkText}
-						link={project.link}
+			{INFO.articles.map((article, index) => (
+				<div className="all-articles-article" key={index}>
+					<Article
+						title={article.title}
+						description={article.description}
+						location={article.location}
+						dateWritten={article.dateWritten}
+						authors={article.authors}
 					/>
 				</div>
 			))}
