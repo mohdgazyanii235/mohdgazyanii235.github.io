@@ -15,21 +15,22 @@ const Article = (props) => {
 		setPopUpVisible(!isPopUpVisible);
 	};
 
-	const truncateDescription = (desc) => {
-        const words = desc.split(/\s+/); // Split based on one or more whitespace
-        if (words.length > 50) {
-            return words.slice(0, 50).join(" ") + "...";
-        } else {
-            return desc;
-        }
+	const truncateText = (desc, maxLength) => {
+		if (desc.length > maxLength) {
+			let trimmedString = desc.substr(0, maxLength);
+			trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")));
+			return trimmedString + "...";
+		} else {
+			return desc;
+		}
     };
 
 	return (
 		<React.Fragment>
 			<div className="article" onClick={togglePopup}>
 				<div className="article-container">
-					<div className="article-title">{title}</div>
-					<div className="article-description">{truncateDescription(description)}</div>
+					<div className="article-title">{truncateText(title, 32)}</div>
+					<div className="article-description">{truncateText(description, 300)}</div>
 				</div>
 			</div>
 			{isPopUpVisible && 

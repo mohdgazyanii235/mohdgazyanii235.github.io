@@ -29,3 +29,8 @@
     border-left: 2px solid white;
     padding-left: 10px;
 }
+
+.video-link {
+    color: var(--quaternary-color);
+    font-weight: 400;
+}

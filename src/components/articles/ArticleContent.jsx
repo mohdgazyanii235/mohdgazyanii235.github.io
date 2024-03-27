@@ -37,6 +37,11 @@ const ArticleContent = (props) => {
                     <p><strong>Description:</strong> {description}</p>
                     <p><strong>Date Submitted:</strong> {dateWritten}</p>
                     <p><strong>Authors:</strong> {authors.join(', ')}</p>
+                    {isYoutubeVideo ? (
+                        <p><strong>Video Link:</strong> <a className="video-link" href={location}>{location}</a></p>
+                    ):(
+                        <p></p>
+                    )}
                 </div>
             </div>
         </div>
