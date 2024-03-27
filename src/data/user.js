@@ -113,6 +113,15 @@ const INFO = {
 			isYoutubeVideo: false,
 		},
 		{
+			title: "Security Incident Report - Equifax Data Breach 2017",
+			description: "This is an security incident report that I was tasked to build as part of my module requirements. The goal was to conduct a thorough examination of a security breach occured in 2017 at Equifax. The incident response conducted by Equifax after this breach was diabolical... read to find out!",
+			location: process.env.PUBLIC_URL + "/articles/security_management.pdf",
+			dateWritten: "March 2024",
+			authors: ["Mohamed Yusuf"],
+			isArticle: true,
+			isYoutubeVideo: false,
+		},
+		{
 			title: "Solving The CryptoBank CTF on VulnHub",
 			description: "This is a " +  (year - 2020) + " year old video of me solving a capture the flag challenge from VulnHub that I thought was quite fun (Also my first ever youtube video). After solving this challenge, I remember @emaragkos (twitter)(the author of the CTF) telling me that I was the only person who solved the CTF in the way that I did.",
 			location: "https://www.youtube.com/watch?v=eLX12zv7isw",
