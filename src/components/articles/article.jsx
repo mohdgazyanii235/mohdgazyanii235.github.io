@@ -7,7 +7,7 @@ import ArticleContent from "./ArticleContent";
 import "./styles/article.css";
 
 const Article = (props) => {
-	const { title, description, location, dateWritten, authors } = props;
+	const { title, description, location, dateWritten, authors, video_id, isArticle, isYoutubeVideo } = props;
 
 	const [isPopUpVisible, setPopUpVisible] = useState(false);
 
@@ -32,7 +32,18 @@ const Article = (props) => {
 					<div className="article-description">{truncateDescription(description)}</div>
 				</div>
 			</div>
-			{isPopUpVisible && <ArticleContent title={title} description={description} location={location} dateWritten={dateWritten} authors={authors} togglePopup={togglePopup}/>}
+			{isPopUpVisible && 
+			< ArticleContent 
+				title={title} 
+				description={description} 
+				location={location} 
+				dateWritten={dateWritten} 
+				authors={authors} 
+				togglePopup={togglePopup}
+				isArticle={isArticle}
+				isYoutubeVideo={isYoutubeVideo}
+				video_id={video_id}
+			/>}
 		</React.Fragment>
 	);
 };

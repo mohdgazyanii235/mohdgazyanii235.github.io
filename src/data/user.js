@@ -1,4 +1,10 @@
+const d = new Date();
+const year = d.getFullYear();
+
 const INFO = {
+
+
+
 	main: {
 		title: "Mo's Portfolio",
 		name: "Mohamed Yusuf Mohamed Javid",
@@ -83,8 +89,8 @@ const INFO = {
 	},
 
 	article: {
-		title: "My Articles.",
-		description: "I aim to upload on this page, an array of my articles / meaningful documents  that I have written over the years... these could be bug bounty reports from 6 years ago to a detailed comparitive analysis between vim and emacs (I chose vim because psycopathy doesn't run in MY family)! ... See you soon!",
+		title: "My Work..",
+		description: "Perhaps 'Articles' isn't a great title for this page, but it's my website so I will do whatever I want to. In this section of the site I want to display some of the work that I have done over the years in computer science. This includes security reports, personal statements, resumes, youtube videos, articles, blog posts and just general stuff that shows my competencies and love for the world of technology🖥️🖥️🖥️! Stay tuned!",
 	},
 
 	articles: [
@@ -92,17 +98,49 @@ const INFO = {
 			title: "Security Analysis of WideVine as a Digital Rights Management Solution",
 			description: "In my first year studying Computer Science with a focus on Information Security at Royal Holloway University of London, I was selected for an undergraduate research project with an ambitious goal. The project aimed to conduct an in-depth security analysis of WideVine, a leading digital rights management system. Our objective was to assess the resilience of DRM-protected video content from prominent platforms like Netflix and Amazon Prime, exploring potential vulnerabilities. This initiative not only sharpened my technical skills but also provided a practical perspective on the challenges and complexities of digital content protection.",
 			location: process.env.PUBLIC_URL + "/articles/widevine.pdf",
-			link: "article image",
 			dateWritten: "August 2021",
-			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"]
+			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"],
+			isArticle: true,
+			isYoutubeVideo: false,
 		},
 		{
 			title: "My UCAS Personal Statement",
 			description: "After dedicating 2-3 months to meticulously crafting my UCAS personal statement amidst the whirlwind of university applications four years ago, the thought of limiting its audience to just a select few feels like a disservice. This labor of love, a testament to my determination and passion during a pivotal chapter of my academic journey, deserves a broader stage.",
 			location: process.env.PUBLIC_URL + "/articles/UCAS_personal_statement.pdf",
-			link: "article image",
-			dateWritten: "August 2021",
-			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"]
+			dateWritten: "September 2019",
+			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"],
+			isArticle: true,
+			isYoutubeVideo: false,
+		},
+		{
+			title: "Solving The CryptoBank CTF on VulnHub",
+			description: "This is a " +  (year - 2020) + " year old video of me solving a capture the flag challenge from VulnHub that I thought was quite fun (Also my first ever youtube video). After solving this challenge, I remember @emaragkos (twitter)(the author of the CTF) telling me that I was the only person who solved the CTF in the way that I did.",
+			location: "https://www.youtube.com/watch?v=eLX12zv7isw",
+			video_id: "eLX12zv7isw",
+			dateWritten: "May 2020",
+			authors: ["Mohamed Yusuf", "Elpidoforos Maragkos"],
+			isArticle: false,
+			isYoutubeVideo: true,
+		},
+		{
+			title: "Solving The CryptoBank Typo1 CTF on VulnHub",
+			description: "This is another " +  (year - 2020) + " year old video of me solving a capture the flag challenge from VulnHub. Perfect challenge for demonstrating very notorious privelege escalation method - SUID binaries 💀💀💀!!!",
+			location: "https://www.youtube.com/watch?v=nw94T1HAmfs&t=462s",
+			video_id: "nw94T1HAmfs",
+			dateWritten: "May 2020",
+			authors: ["Mohamed Yusuf"],
+			isArticle: false,
+			isYoutubeVideo: true,
+		},
+		{
+			title: "Solving The Traceback CTF on HackTheBox",
+			description: "This is another " +  (year - 2020) + " year old video of me solving a capture the flag challenge, this time from HackTheBox (my fav). Simple OSINT box with a 6 minute privelege escalation! - I remember this being quite easy!",
+			location: "https://www.youtube.com/watch?v=CP56oz0M-d8&t=98s",
+			video_id: "CP56oz0M-d8",
+			dateWritten: "May 2020",
+			authors: ["Mohamed Yusuf"],
+			isArticle: false,
+			isYoutubeVideo: true,
 		},
 	],
 
