@@ -197,6 +197,15 @@ const INFO = {
 			link: "https://www.linkedin.com/company/thebountyregister/",
 			pin: false,
 		},
+
+		{
+			title: "The Programming Collage",
+			description: "The Programming Collage is a git repository where I'll be sharing algorithms, from beginner to advanced levels, to help with coding interviews. I'll also include my solutions to LeetCode problems, because let's be honest, you newbies could use some guidance (just kidding)!",
+			logos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png"],
+			linkText: "View Git Repository",
+			link: "https://github.com/mohdgazyanii235/TheProgrammingCollage",
+			pin: false,
+		}
 	],
 };
 
