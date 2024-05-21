@@ -50,7 +50,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="https://mohdgazyanii235.github.io/my-resume/about.png"
+											src="https://mohdgazyanii235.github.io/about.png"
 											alt="about"
 											className="about-image"
 										/>

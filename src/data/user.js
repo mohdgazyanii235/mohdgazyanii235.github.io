@@ -10,7 +10,7 @@ const INFO = {
 		name: "Mohamed Yusuf Mohamed Javid",
 		nickname: "Mo",
 		email: "mohdgazyanii235@gmail.com",
-		logo: "https://mohdgazyanii235.github.io/my-resume/logo.png",
+		logo: "https://mohdgazyanii235.github.io/logo.png",
 	},
 
 	projectPage: {
@@ -33,7 +33,7 @@ const INFO = {
 		description: "My name is Mohamed Yusuf, but you probably figured that out already. I wear many hats - I'm a computer scientist, teaching assistant, barista, web developer, penetration tester, CEO and a coffee addict (not necessarily in that order). Through this website, I aim to showcase my prowess in software engineering and penetration testing, featuring both my personal and professional escapades. Worry not, You're not sifting through a half-century-old portfolio of someone who once reveled in the limelight! I plan to keep this website as fresh as my daily espresso shots. So dive in and enjoy the blend of technology and caffeine induced creativity!",
 		projectsTitle: "Some of my favourite projects...",
 		articlesTitle: "Some of my favourite articles...",
-		image: "https://mohdgazyanii235.github.io/my-resume/homepage.jpg",
+		image: "https://mohdgazyanii235.github.io/homepage.jpg",
 	},
 
 	about: {
@@ -189,7 +189,7 @@ const INFO = {
 			description: "This is where you will find the source code of this website. I am absolutely happy for you clone and build your own using this as a template if you so please!",
 			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"],
 			linkText: "View Project Source Code",
-			link: "https://github.com/mohdgazyanii235/my-resume",
+			link: "https://github.com/mohdgazyanii235/mohdgazyanii235.github.io",
 			pin: true,
 		},
 
@@ -214,7 +214,7 @@ const INFO = {
 		{
 			title: "Advanced Allocation Algorithm",
 			description: "The Advanced Allocation Algorithm is our latest ML project, a brainchild cooked up with me and my business partner. Unfortunately, we've got to keep the lid on the details for now... It's like the secret ingredient in your favorite dish - makes you curious, but trust me, it's worth the wait!",
-			logos: ["https://mohdgazyanii235.github.io/my-resume/black-with-white-background.png", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
+			logos: ["https://mohdgazyanii235.github.io/black-with-white-background.png", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
 			linkText: "Visit The Bounty Register LinkedIn Page For Updates",
 			link: "https://www.linkedin.com/company/thebountyregister/",
 			pin: false,
