@@ -190,7 +190,7 @@ const INFO = {
 			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"],
 			linkText: "View Project Source Code",
 			link: "https://github.com/mohdgazyanii235/mohdgazyanii235.github.io",
-			pin: true,
+			pin: false,
 		},
 
 		{
@@ -217,7 +217,7 @@ const INFO = {
 			logos: ["https://mohdgazyanii235.github.io/black-with-white-background.png", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://www.svgrepo.com/show/306500/openai.svg", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
 			linkText: "Visit The Bounty Register LinkedIn Page For Updates",
 			link: "https://www.linkedin.com/company/thebountyregister/",
-			pin: false,
+			pin: true,
 		},
 
 		{
@@ -226,7 +226,7 @@ const INFO = {
 			logos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png"],
 			linkText: "View Git Repository",
 			link: "https://github.com/mohdgazyanii235/TheProgrammingCollage",
-			pin: false,
+			pin: true,
 		}
 	],
 };
