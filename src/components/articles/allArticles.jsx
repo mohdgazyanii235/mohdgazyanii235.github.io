@@ -6,7 +6,7 @@ import INFO from "../../data/user";
 
 import "./styles/allArticles.css";
 
-const AllArticles = () => {
+const AllArticles = ({pinned}) => {
 
 
 	const renderContentBasedOnCondition = (article, index) => {
@@ -57,13 +57,25 @@ const AllArticles = () => {
 		)
 	}
 
-	return (
-		<div className="all-articles-container">
-			{INFO.articles.map((article, index) => (
-				renderContent(article, index)
-			))}
-		</div>
-	);
+
+	if (pinned == true) {
+		return (
+			<div className="all-articles-container">
+				{INFO.articles.filter(article => article.pin).map((article, index) => (
+					renderContentBasedOnCondition(article, index)
+				))}
+			</div>
+		);
+	} else {
+		return (
+			<div className="all-articles-container">
+				{INFO.articles.map((article, index) => (
+					renderContent(article, index)
+				))}
+			</div>
+		);
+	}
+	
 };
 
 export default AllArticles;

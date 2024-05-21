@@ -17,6 +17,7 @@ import PinnedProjects from "../components/projects/pinnedProjects";
 import INFO from "../data/user";
 
 import "./styles/homepage.css";
+import AllArticles from "../components/articles/allArticles";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -168,6 +169,14 @@ const Homepage = () => {
 
 						<div className="homepage-projects">
 							<PinnedProjects />
+						</div>
+
+						<div className="section-title homepage-section-title">
+							{INFO.homepage.articlesTitle}
+						</div>
+
+						<div className="homepage-articles">
+							<AllArticles pinned={true}/>
 						</div>
 
 						<div className="page-footer">

@@ -32,6 +32,7 @@ const INFO = {
 		title: "Hello world! Welcome to this side of the internet!",
 		description: "My name is Mohamed Yusuf, but you probably figured that out already. I wear many hats - I'm a computer scientist, teaching assistant, barista, web developer, penetration tester, CEO and a coffee addict (not necessarily in that order). Through this website, I aim to showcase my prowess in software engineering and penetration testing, featuring both my personal and professional escapades. Worry not, You're not sifting through a half-century-old portfolio of someone who once reveled in the limelight! I plan to keep this website as fresh as my daily espresso shots. So dive in and enjoy the blend of technology and caffeine induced creativity!",
 		projectsTitle: "Some of my favourite projects...",
+		articlesTitle: "Some of my favourite articles...",
 		image: "https://mohdgazyanii235.github.io/my-resume/homepage.jpg",
 	},
 
@@ -39,6 +40,11 @@ const INFO = {
 		title: "About me",
 		description: "This page is about me- I promise I am not a narcissist! This is where I will share snippets of my life, each photo/video capturing a slice of the adventure that is me. From solving the rubik's cube blindfolded to absolutely acing a 6 iron, every image here tells a story of passion, persistence and a sprinkle of playfulness.",
 		photos: [
+			{
+				title: "Retiring to the bed after a lost battle with the chair!",
+				description: "After a long few weeks of studying from my desk, I finally succumbed to the chair's relentless assault on my spine. The chair won this round, I decided to retire to the bed to watch youtube videos by professors from University of Nottingham (Computerphile) for my Royal Holloway Degree...",
+				link: process.env.PUBLIC_URL + "/photo_gallery/studying_from_bed.jpeg",
+			},
 			{
 				title: "What I Look Like after 14 hours of Hacking!🎮👾",
 				description: "Fresh off a 14-hour HackTheBox spree with my buddy - my busted ACL (after a skiing accident) made sure I had a great excuse to keep on hacking without taking a break!",
@@ -102,6 +108,7 @@ const INFO = {
 			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"],
 			isArticle: true,
 			isYoutubeVideo: false,
+			pin: true,
 		},
 		{
 			title: "My UCAS Personal Statement",
@@ -111,6 +118,7 @@ const INFO = {
 			authors: ["K Markantonakis", "Darren Hurley-Smith", "Carlton Shepherd", "Mohamed Yusuf"],
 			isArticle: true,
 			isYoutubeVideo: false,
+			pin: false,
 		},
 		{
 			title: "Security Incident Report - Equifax Data Breach 2017",
@@ -120,6 +128,17 @@ const INFO = {
 			authors: ["Mohamed Yusuf"],
 			isArticle: true,
 			isYoutubeVideo: false,
+			pin: true,
+		},
+		{
+			title: "Addressing the Human Element in Advanced Persistent Threat Defence: A Literature Review of Social Engineering Mitigation Strategies",
+			description: "This is a literature review that I wrote as part of my module requirements. The review focuses on the human element in Advanced Persistent Threat Defence and explores the various social engineering mitigation strategies that can be employed to protect against these threats... towards the end I also highlight a novel solution that I haven't seen being employed in industry yet! Read to find out!",
+			location: process.env.PUBLIC_URL + "/articles/Cyber_Security.pdf",
+			authors: ["Mohamed Yusuf"],
+			dateWritten: "April 2024",
+			isArticle: true,
+			isYoutubeVideo: false,
+			pin: true,
 		},
 		{
 			title: "Solving The CryptoBank CTF on VulnHub",
@@ -130,6 +149,7 @@ const INFO = {
 			authors: ["Mohamed Yusuf", "Elpidoforos Maragkos"],
 			isArticle: false,
 			isYoutubeVideo: true,
+			pin: false,
 		},
 		{
 			title: "Solving The CryptoBank Typo1 CTF on VulnHub",
@@ -140,6 +160,7 @@ const INFO = {
 			authors: ["Mohamed Yusuf"],
 			isArticle: false,
 			isYoutubeVideo: true,
+			pin: false,
 		},
 		{
 			title: "Solving The Traceback CTF on HackTheBox",
@@ -150,6 +171,7 @@ const INFO = {
 			authors: ["Mohamed Yusuf"],
 			isArticle: false,
 			isYoutubeVideo: true,
+			pin: false,
 		},
 	],
 

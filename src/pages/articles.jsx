@@ -43,7 +43,7 @@ const Articles = () => {
 						</div>
 
 						<div className="articles-list">
-							<AllArticles />
+							<AllArticles pinned={false}/>
 						</div>
 					</div>
 					<div className="page-footer">
