@@ -101,8 +101,8 @@ const INFO = {
 
 	articles: [
 		{
-			title: "test",
-			description: "test",
+			title: "Modern Authentication - How Should Authentication Really Be Delegated?",
+			description: "In the rapidly evolving landscape of web application development, ensuring secure user authentication and authorisation has become a critical concern for organisations worldwide. As the complexity of applications grows and the threat of cyber-attacks looms larger, it is imperative to adopt robust and reliable authentication mechanisms that safeguard user data and maintain the integrity of the system. This paper delves into the realm of modern authentication, focusing on the widely adopted OAuth 2.0 and OpenID Connect standards, and explores their implementation using the powerful Spring Boot Java framework.",
 			location: process.env.PUBLIC_URL + "/articles/Final_Year_Project_Final_Report.pdf",
 			dateWritten: "March 2024",
 			authors: ["Mohamed Yusuf", "Cris Mitchell"],
