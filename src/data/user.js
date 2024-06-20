@@ -101,6 +101,16 @@ const INFO = {
 
 	articles: [
 		{
+			title: "test",
+			description: "test",
+			location: process.env.PUBLIC_URL + "/articles/Final_Year_Project_Final_Report.pdf",
+			dateWritten: "March 2024",
+			authors: ["Mohamed Yusuf", "Cris Mitchell"],
+			isArticle: true,
+			isYoutubeVideo: false,
+			pin: true,
+		},
+		{
 			title: "Security Analysis of WideVine as a Digital Rights Management Solution",
 			description: "In my first year studying Computer Science with a focus on Information Security at Royal Holloway University of London, I was selected for an undergraduate research project with an ambitious goal. The project aimed to conduct an in-depth security analysis of WideVine, a leading digital rights management system. Our objective was to assess the resilience of DRM-protected video content from prominent platforms like Netflix and Amazon Prime, exploring potential vulnerabilities. This initiative not only sharpened my technical skills but also provided a practical perspective on the challenges and complexities of digital content protection.",
 			location: process.env.PUBLIC_URL + "/articles/widevine.pdf",
