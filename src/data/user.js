@@ -187,6 +187,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Delegated Authentication & Authorisation with OAuth2.0 and OpenID Connect",
+			description: "When it comes to secure authentication and authorization, OAuth2.0 and OpenID Connect are the undisputed champs. For this project, I donned my web developer hat and built a robust authentication system using Spring Boot, showcasing an ERP HCM solution demo. I meticulously crafted a client server, a resource server, and an authorization server to illustrate the right way to handle these processes securely.",
+			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", "https://www.svgrepo.com/show/303251/mysql-logo.svg"],
+			linkText: "View Project Source Code",
+			link: "https://github.com/mohdgazyanii235/FinalYearProject",
+			pin: true,
+		},
+		{
 			title: "CV Maker",
 			description: "CV Maker is your go-to solution for crafting the perfect CV for every job application. This tool eliminates the hassle of constantly modifying your resume to match each job's requirements.",
 			logos: ["https://cdn.worldvectorlogo.com/logos/react-1.svg", "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png", "https://logowik.com/content/uploads/images/latex6119.logowik.com.webp", "https://www.iconpacks.net/icons/2/free-pdf-icon-3385-thumb.png"],
